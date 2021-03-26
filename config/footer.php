@@ -1,6 +1,6 @@
 <?php 
 function display_footer ($translator) {
-    $output= ' ';
+    $output= '';
     if ($_SESSION['lang']=="fr") {
       $translate['copyright'] = '&copy; ' . date("Y") . " Audiosquad - Tous droits réservés";
     } elseif ($_SESSION['lang']=="en") {
