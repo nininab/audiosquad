@@ -1,0 +1,1 @@
+$('.chosen-select-width').chosen({width:"100%", search_contains:true });
