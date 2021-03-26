@@ -19,7 +19,7 @@ if (!isset($_SESSION['lang']) || empty($_SESSION['lang'])) {
         $_SESSION['lang'] = 'en';
     }
 }
-
+echo "allo";
 
 if (!empty(DB_CON_STR['LBP'])) {
     $opt = [
