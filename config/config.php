@@ -9,7 +9,7 @@ require_once __DIR__.'/footer.php';
 use Symfony\Component\Translation\Translator;
 use Symfony\Component\Translation\Loader\YamlFileLoader;
 
- 
+echo "allo";
 session_start();
 if (!isset($_SESSION['lang']) || empty($_SESSION['lang'])) {
     /* Locale from Browser */
